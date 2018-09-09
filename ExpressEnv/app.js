@@ -4,6 +4,11 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
+//MongoDB connection to Node
+var mongo = require('mongodb');
+var monk = require('monk');
+var db = monk('localhost:27017/ExpressEnv');
+
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
@@ -19,6 +24,11 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+//Adding accessibility to MongoDB for the router
+app.use(function(req, res, next){
+  req.db = db; 
+  next();
+}); 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 

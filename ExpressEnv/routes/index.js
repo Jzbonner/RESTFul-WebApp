@@ -8,7 +8,23 @@ router.get('/', function(req, res, next) {
 
 /* GET Hello World Page */
 router.get('/helloworld', function(req, res) {
-  res.render('helloworld', {title: 'Hello, World!'});
-})
+  res.render('helloworld', { title: 'Hello, World!' });
+});
+
+/* GET User List Page */
+router.get('/userlist', function(req, res) {
+  var db = req.db;
+  var collection = db.get('usercollection');
+  collection.find({}, {}, function(e, docs) {
+    res.render('userlist', {
+      "userlist" : docs
+    });
+  });
+});
+
+/* GET New User Page */
+router.get('/newuser', function(req, res) {
+  res.render('newuser', { title: 'Add New User' });
+}); 
 
 module.exports = router;

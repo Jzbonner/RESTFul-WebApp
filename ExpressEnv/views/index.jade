@@ -3,3 +3,10 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+  p This dev space includes an html page for:  
+  ul#links 
+    li: a(href="http://localhost:3000/helloworld") Hello World 
+    li: a(href="http://localhost:3000/userlist") User List
+    li: a(href="http://localhost:3000/newuser") New User  
+  
+
