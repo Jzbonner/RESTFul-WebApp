@@ -7,4 +7,4 @@ Credit for Reference:
 ![diagram](https://image.slidesharecdn.com/ajaxtechnology-140820025052-phpapp02/95/what-is-ajax-technology-3-638.jpg?cb=1469434957)
 
 #### Foundational Concepts 
-> This workspace covers the foundational elements of routes, views, and dependency packages in terms of working with the Express.js Engine. Please look for other tutorials to get a better picture of how to utilize AJAX request and jQuery/DOM manipulation 
+> This workspace covers the foundational elements of routes, views, and dependency packages in terms of working with the Express.js Engine, templating services like Jade/Pug and JSON services like Ajax. 
