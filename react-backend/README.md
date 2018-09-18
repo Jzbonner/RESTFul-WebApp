@@ -7,4 +7,4 @@ Credit for Reference:
 ![diagram](https://cdn-images-1.medium.com/max/1200/1*EKW3XazCN98jcVrlEP3H8g.png)
 
 #### Foundational Concepts 
-> This workspace covers the foundational elements of routes, views, and dependency packages in terms of working with the Express.js Engine and the React.js framework. This should provide the general gist of setting up web applications from conception to deployment. Information about deployment via Heroku soon come. 
+> This workspace covers the foundational elements of routes, views, and dependency packages in terms of working with the Express.js Engine and the React.js framework. This should provide the general gist of setting up web applications from conception to deployment (via Heroku). 
