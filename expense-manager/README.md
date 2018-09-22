@@ -14,6 +14,6 @@ Currently this is just a wire-frame for an application that could be useful for 
 ![diagram](http://www.brain-mentors.com/img/mern-training-institute.jpg)
 
 #### Useful Terminal Commands 
-'ps ax' - list all active port connections and corresponding commands 
-'taskkill (/f) /pid port' - ends the connection to the specified port
-'netstat -ano | findstr :port' - finds all connections and corresponding PIDs based off of port number 
+* 'ps ax' - list all active port connections and corresponding commands 
+* 'taskkill (/f) /pid port' - ends the connection to the specified port
+* 'netstat -ano | findstr :port' - finds all connections and corresponding PIDs based off of port number 
