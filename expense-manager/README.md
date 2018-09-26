@@ -5,10 +5,9 @@ A simple full stack web application that allows you to write out your list of ex
 Currently this is just a wire-frame for an application that could be useful for managing everyday expenses with further development. 
 
 #### CheckList 
-* Wire-frame Layout 
-* Basic Functionality 
-* Creative UX/UI Design 
-* Name Change
+* Wire-frame Layout :heavy_check_mark:
+* Basic Functionality :heavy_check_mark:
+* Creative UX/UI Design :heavy_check_mark:
 
 #### MERN 
 ![diagram](http://www.brain-mentors.com/img/mern-training-institute.jpg)
