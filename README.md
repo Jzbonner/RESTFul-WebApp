@@ -1,6 +1,8 @@
 # RESTFul WebApp
 A repository dedicated as a testing environment for use with the MongoDB, ExpressJS, and NodeJS. Should provide a foundation for understanding the intricacies of developing a RESTFul Web Application with JavaScript. 
 
+![Diagram1](https://d32myzxfxyl12w.cloudfront.net/images/ckeditor_assets/pictures/272/content_api_for_restful_web_services.png)
+
 ## Overview
 A **REST** is an acronym for _Representational State Transfer_. It is an architectural style for _distributed hypermedia systems_. Guiding Principles of REST: 
 1. **Client–server** – By separating the user interface concerns from the data storage concerns, we improve the portability of the user interface across multiple platforms and improve scalability by simplifying the server components.
