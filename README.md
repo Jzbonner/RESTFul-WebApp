@@ -13,3 +13,9 @@ A **REST** is an acronym for _Representational State Transfer_. It is an archite
 6. **Code on demand** (optional) – REST allows client functionality to be extended by downloading and executing code in the form of applets or scripts. This simplifies clients by reducing the number of features required to be pre-implemented.
 
 A **RESTful API** is an application program interface that uses [HTTP](https://github.com/request/request) request to GET, PUT, POST, and DELETE data. REST is useful in cloud applications. Stateless components can be freely redeployed if something fails, and they can scale to accommodate load changes. That makes REST preferred for web use, but the RESTful model is also helpful in cloud services because binding to a service through an API is a matter of controlling how the URL is decoded
+
+### Environments and Examples
+* [Ajax Env](https://github.com/Jzbonner/RESTFul-WebApp/tree/master/AjaxEnv): An implementation of using Ajax request to manipulate and display JSON data 
+* [Express Env](https://github.com/Jzbonner/RESTFul-WebApp/tree/master/ExpressEnv): An implementation of ExpressJS that shows the general process behind using the app engine to update and delete data from a server
+* [React-Backend](https://github.com/Jzbonner/RESTFul-WebApp/tree/master/react-backend): An example of incorporating the ReactJS frontend framework into a backend engine like ExpressJS instead of the pre-configured templating options like (Jade/Pug and EJS)
+* [Expense Manager](https://github.com/Jzbonner/RESTFul-WebApp/tree/master/expense-manager): An example of a full stack application that utilizes the MERN Stack in order to make simple HTTP request to a MongoDB Server. 

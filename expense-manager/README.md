@@ -10,7 +10,7 @@ Currently this is just a wire-frame for an application that could be useful for 
 * Creative UX/UI Design :heavy_check_mark:
 
 #### MERN 
-![diagram](http://www.brain-mentors.com/img/mern-training-institute.jpg)
+![diagram](https://cdn.lynda.com/static/landing/images/custom/BecomeaMERNStackJavaScriptDeveloper_LP_480x270-1530050598385.jpg)
 
 #### Useful Terminal Commands 
 * 'ps ax' - list all active port connections and corresponding commands 
